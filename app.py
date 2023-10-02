@@ -1,9 +1,4 @@
-import shutil
-from charset_normalizer import detect
-from numpy import object_
 import streamlit as st
-import io
-import cv2
 from transformers import AutoTokenizer, AutoModelWithLMHead
 
 # Google Drive file ID
