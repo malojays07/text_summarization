@@ -6,8 +6,14 @@ import io
 import cv2
 from transformers import AutoTokenizer, AutoModelWithLMHead
 
+# Google Drive file ID
+file_id = "https://drive.google.com/file/d/1WrJ2XKaWdaJ7qhThL0mWZ9sTGIkTcSHi/view?usp=sharing"  # Replace with the file ID of your Google Drive file
+
+# Generate the direct download link
+download_link = f"https://drive.google.com/uc?export=download&id={file_id}"
+
 # Load the pre-trained model and tokenizer
-model_name = "model_name"  # Replace with the name or path of your pre-trained model
+model_name = file_id  # Replace with the name or path of your pre-trained model
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelWithLMHead.from_pretrained(model_name)
 
