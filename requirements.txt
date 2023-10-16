@@ -31,4 +31,4 @@ streamlit==1.27.0
 tensorflow==2.13.0
 textsearch==0.0.24
 transformers==4.10.3
-tokenizers>=0.10.1,<0.11
+tokenizers>=0.14.1
