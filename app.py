@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import AutoTokenizer, AutoModelWithLMHead
 
 # Google Drive file ID
-file_id = "https://drive.google.com/file/d/1WrJ2XKaWdaJ7qhThL0mWZ9sTGIkTcSHi/view?usp=sharing"  # Replace with the file ID of your Google Drive file
+file_id = "1WrJ2XKaWdaJ7qhThL0mWZ9sTGIkTcSHi"  # Replace with the file ID of your Google Drive file
 
 # Generate the direct download link
 download_link = f"https://drive.google.com/uc?export=download&id={file_id}"
